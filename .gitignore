@@ -1,3 +1,42 @@
-media/
-venv
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+venv/
 .env
+.venv/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Static & media
+media/
+staticfiles/
+
+# Collected static
+static/static_root/
+
+# IDE
+.vscode/
+.idea/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# migrstions
+migrations/
+apps/migrations/
